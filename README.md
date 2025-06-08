@@ -1,12 +1,38 @@
-# React + Vite
+# 🚀 React Admin Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and theme-toggleable **Admin Dashboard** built with **React**. Includes support for **dark mode**, dynamic **charts**, a customizable **calendar**, and a clean **Kanban board** for task management.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Theme Toggle** – Light & Dark mode with smooth transitions using CSS variables  
+- 📊 **Charts** – Line, Pie charts using Recharts  
+- ✅ **Kanban Board** – Drag & drop tasks across To Do, In Progress, and Done columns  
+- 📅 **Calendar** – Custom mini calendar with date highlights and navigation  
+- 📋 **Data Table** – Sortable, responsive, and theme-adaptive table layout  
+- 📱 **Responsive UI** – Mobile-first grid layout, fits all screen sizes  
+- 💡 **Custom CSS Theming** – Built with modern, vanilla CSS  
+- ⚙️ **Developer Friendly** – Clean folder structure, reusable React components, context-based theming  
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
+```
+src/
+├── components/
+│ ├── ThemeToggle.jsx 
+│ ├── Table.jsx 
+│ ├── Charts.jsx 
+│ ├── Calendar.jsx
+│ ├── KanbanBoard.jsx
+├── App.jsx 
+├── index.jsx 
+├── styles.css 
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ✅ Installation
+1. Clone the repo
+2. Run ``` npm install ```
+3. Start the dev server with ``` npm run dev ```
+
+# ⚙️ Built With
+- React
+- Vite
+- CSS
